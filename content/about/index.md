@@ -14,7 +14,7 @@ showWordCount: false
 
 I am a social scientist with a PhD in Regional Science from Cornell University.
 
-![Profile photo](/images/profile.jpeg)
+![Profile photo](images/profile.jpeg)
 
 My work sits at the intersections of food and agricultural systems, rural and community development, and public policy. I study questions around organic and sustainable agricultural policy, adoption of novel agricultural technologies, and pathways toward more equitable and resilient farming economies.
 
