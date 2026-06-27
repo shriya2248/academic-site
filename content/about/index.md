@@ -20,12 +20,7 @@ My work sits at the intersections of food and agricultural systems, rural and co
 
 I am also interested in climate resilience and the Circular Economy, particularly in agri-food systems and construction. Across these areas, I am interested in how institutions and communities influence development trajectories.
 
-I have worked also in governance consulting on projects related to rural development and education reform in India. 
-
-
-## Teaching and mentorship
-
-Teaching and mentorship are important to me too! I have taught and assisted undergraduate and graduate courses in quantitative methods, data analysis, GIS, and urban theory. My most rewarding teaching experience, however, was spending a year teaching in a prison education program.
+I have worked in governance consulting on projects related to rural development and education reform in India. Teaching and mentorship are important to me too! I have taught and assisted undergraduate and graduate courses in quantitative methods, data analysis, GIS, and urban theory. 
 
 ## Other interests
 
