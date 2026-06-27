@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://shriya2248.github.io/"
+baseURL = "https://shriya2248.github.io/academic-site/"
 locale = "en"
 title = "Shriya"
 
