@@ -1,0 +1,292 @@
+/* =========================
+   FONTS
+   ========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@200;300;400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+/* Site name */
+.main-menu a.text-base.font-medium {
+  font-family: "Encode Sans Semi Condensed", sans-serif !important;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+}
+
+/* Circular avatar logo */
+.logo {
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+/* Hide email menu label, show icon only */
+a[href^="mailto"] span.text-base {
+  display: none;
+}
+
+
+/* =========================
+   TYPOGRAPHY — BODY
+   ========================= */
+
+.prose {
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 120ch;
+}
+
+.prose strong {
+  font-weight: 700;
+}
+
+.prose em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+
+/* =========================
+   TYPOGRAPHY — HEADINGS
+   ========================= */
+
+h1,
+h1.text-4xl,
+article h1,
+header h1,
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  font-family: "Encode Sans Semi Condensed", sans-serif !important;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+/* Sizing hierarchy */
+.prose h1 { font-size: 2rem;   font-weight: 200; }
+.prose h2 { font-size: 1.5rem; font-weight: 200; margin-top: 2rem; }
+.prose h3 { font-size: 1.4rem; font-weight: 200; }
+
+h1,
+h1.text-4xl,
+article h1,
+header h1 {
+  font-weight: 200;
+  letter-spacing: -0.03em;
+}
+
+/* Colors */
+.prose h1,
+article header h1,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  color: #2A7A7A !important;
+}
+
+/* Section headers on writing/content pages - coral */
+.prose h2 {
+  color: #FF6B6B !important;
+}
+
+/* Homepage hero text stays off-white */
+.prose-invert h1,
+.prose-invert h2,
+.prose-invert h3,
+article h1.font-extrabold.text-neutral-200 {
+  color: #f5f5f5 !important;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+.prose a {
+  color: #2E8B8B !important;
+  text-decoration: none;
+}
+
+.prose a:hover,
+a:hover,
+.toc a:hover {
+  color: #FF6B6B !important;
+  text-decoration: none !important;
+}
+
+.toc a {
+  text-decoration: none !important;
+}
+
+
+/* =========================
+   LAYOUT
+   ========================= */
+
+/* Center content on single pages */
+#single_header,
+.article-content {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 75ch !important;
+}
+
+/* Content width for list pages */
+.min-w-0.min-h-0.w-full {
+  max-width: 75ch !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Hide Recent header from list shortcode */
+.prose h2.mt-20 {
+  display: none !important;
+}
+
+
+/* =========================
+   PAGE TITLES (list pages)
+   ========================= */
+
+header h1.mt-5 {
+  color: #2A7A7A !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* =========================
+   IMAGES
+   ========================= */
+
+.headshot {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/* =========================
+   WRITING PAGE — ARTICLE LIST
+   ========================= */
+
+/* Article titles — dark teal, smaller than section headers */
+.prose .article-link--simple header h2,
+.prose .article-link--simple h2,
+.article-link--simple header h2,
+.article-link--simple h2 {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #2A7A7A !important;
+  line-height: 1.1 !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+/* Hide date on writing entries */
+.article-link--simple .text-neutral-500 {
+  display: none !important;
+}
+
+/* Full width list items */
+.article-link--simple {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.space-y-10 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Thumbnail - square, cover crop */
+div.thumbnail,
+div.thumbnail-shadow {
+  width: 120px !important;
+  min-width: 120px !important;
+  max-width: 120px !important;
+  height: 120px !important;
+  min-height: 120px !important;
+  max-height: 120px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  flex-shrink: 0 !important;
+}
+
+div.thumbnail img,
+div.thumbnail-shadow img {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+}
+
+/* Author social links - white icons on homepage */
+.prose-invert .flex.flex-wrap a,
+div.text-2xl a {
+  color: white !important;
+}
+
+div.text-2xl a:hover {
+  color: #FF6B6B !important;
+}
+
+/* =========================
+   RESEARCH PAGE — CARDS
+   ========================= */
+
+/* Card titles - dark teal, h3 size */
+.article-link--card h2 {
+  color: #2A7A7A !important;
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+}
+
+/* Research cards - wider than text block */
+.prose section.w-full.grid {
+  grid-template-columns: repeat(3, 1fr) !important;
+  width: 110ch !important;
+  max-width: 110ch !important;
+  margin-left: calc(-1 * (110ch - 75ch) / 2) !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Research card titles - coral, smaller */
+.article-link--card h2 {
+  color: #FF6B6B !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+/* Research project pages - full width content */
+.article-content .prose > div[style*="grid"] {
+  margin-left: 0 !important;
+  width: 100% !important;
+}
+
+/* Align article content to top of thumbnail */
+.article-link--simple.flex {
+  align-items: flex-start !important;
+}
+
+article.article-link--simple {
+  align-items: flex-start !important;
+}
+/* Tighten summary line height */
+.article-link__summary {
+  line-height: 1.3 !important;
+  font-size: 0.9rem !important;
+}

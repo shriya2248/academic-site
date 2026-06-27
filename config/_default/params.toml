@@ -1,0 +1,38 @@
+colorScheme = "github"
+enableAppearanceSwitcher = true
+defaultAppearance = "light"
+autoSwitchAppearance = false
+
+[author]
+  name = "Shriya"
+  image = "img/avatar.jpg"
+    links = [
+    { email = "mailto:shriya.rangarajan@gmail.com?subject=Hello!" },
+    { linkedin = "https://www.linkedin.com/in/shriyarangarajan/" },
+    { google-scholar = "https://scholar.google.com/citations?user=gGH-VCoAAAAJ&hl=en" },
+    { orcid = "https://orcid.org/0000-0003-0614-178X" }
+  ]
+
+  logo = "img/avatar.jpg"
+  disableTextInHeader = false
+
+[seo]
+  metaDescriptionOrder = ["description", "summary", "site"]
+
+[font]
+  headingFont = "Rosario"
+  bodyFont = "Puritan"
+
+[footer]
+  showFooter = true
+
+[homepage]
+  layout = "hero"
+  homepageImage = "img/BG1.jpeg"
+  showRecent = false
+
+
+[list]
+  showSummary = true
+  showCards = false
+  cardView = false
