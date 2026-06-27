@@ -2,3 +2,4 @@ Git hub token for academic-site
 
 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
 
+git remote set-url origin https://shriya2248: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@github.com/shriya2248/academic-site.git
