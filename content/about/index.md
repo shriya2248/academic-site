@@ -7,8 +7,7 @@ showReadingTime: false
 showTableOfContents: false
 showAuthor: false
 showWordCount: false
------------------------
-
+---
 
 # Hi, I'm Shriya
 
