@@ -7,6 +7,8 @@ baseURL = "https://shriyar.com/"
 locale = "en"
 title = "Shriya"
 
+googleAnalytics = "G-ZH9VTJQ25B"
+
 [params]
   logo = "img/avatar.jpg"
 
